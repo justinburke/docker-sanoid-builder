@@ -1,7 +1,7 @@
 FROM ubuntu:focal
 
 ARG DEBIAN_FRONTEND="noninteractive"
-ENV TZ=America/New_York
+ENV TZ=America/Los_Angeles
 
 RUN mkdir /build
 WORKDIR /build
